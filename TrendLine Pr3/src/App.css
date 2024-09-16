@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: Gilroy;
+}
+
+.headline-section::-webkit-scrollbar{
+
+        background-color: white;
+        height: 8px;
+}
+.headline-section::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+
+.image-section::-webkit-scrollbar{
+    display: none;
+}
