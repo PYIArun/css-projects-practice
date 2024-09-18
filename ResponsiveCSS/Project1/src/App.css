@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gilroy';
+}
+
+
+.container{
+    animation-name: xanimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.alphabets h3{
+    font-size: 17px;
+    padding: 0.6vw 1vw;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    transition: all ease 0.2s;
+}
+
+.alphabets h3:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+@keyframes xanimation {
+
+    from{
+        transform: translate(0);
+    }
+
+    to{
+        transform: translate(-100%);
+    }
+    
+}
