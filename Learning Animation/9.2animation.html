@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 2;
+            padding: 0;
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            position: absolute;
+            animation-name: run;
+            animation-duration: 2s;
+            animation-delay: 1s;
+        }
+
+        @keyframes run {
+            from{
+                left: 0;
+                background-color: red;
+                rotate: 0;
+            }
+
+            to{
+                left: 70%;
+                background-color: blue;
+                rotate: 360deg;
+            }
+            
+        }
+
+    </style>
+</head>
+
+
+<body>
+    
+    <div class="box">
+    </div>
+</body>
+</html>

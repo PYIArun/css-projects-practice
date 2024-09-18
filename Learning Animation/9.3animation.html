@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+            margin: 2;
+            padding: 0;
+        }
+
+        img{
+            height: 300px; 
+            position: absolute;
+            animation-name: move;
+            animation-duration: 4s;
+            animation-delay: 1s;
+        } 
+        
+        .box1{
+            height: 300px;
+            width: 300px;
+            background: crimson;
+            position: relative;
+            animation-name: box-animation;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .box2{
+            height: 300px;
+            width: 300px;
+            background: lightgreen;
+            position: relative;
+            animation-name: box-animation;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+
+
+        @keyframes box-animation{
+
+            0%{
+                left: 0;
+            }
+
+            100%{
+                left : 70%;
+            }
+
+        }
+        @keyframes move {
+
+            0%{
+                left: 0;
+                top: 0;
+            }
+
+            50%{
+                left: 70%;
+                top:0;
+            }
+
+            100%{
+                left : 70%;
+                top: 40%;
+            }
+            
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="box1">
+
+    </div>
+    <div class="box2">
+
+    </div>
+    <!-- <img src="https://cdn.dribbble.com/users/5216574/screenshots/14617908/media/3bc2aec27f079ddee24d9284ea8d6683.jpg" alt=""> -->
+
+
+</body>
+</html>
