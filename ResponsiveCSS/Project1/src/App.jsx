@@ -121,6 +121,155 @@ const App = () => {
       <h1 className='pt-5 h-[10vh] w-[80%] font-bold text-5xl mx-auto'>
           VOGUE / SHOT
       </h1>
+
+      <div className='flex justify-between pt-5 h-[80vh] w-[80%] mx-auto'>
+          <div className='h-full w-[40%]'>
+              
+              <div className='flex items-center justify-center h-[80%]'>
+                  <div className='h-[50%] w-[50%] bg-[url("./image13.png")] bg-cover'></div>
+              </div>
+              <p className='flex h-[20%] items-end font-bold text-2xl justify-center w-full'>Maison ARTC: memories and culture, <br/>
+              the base of futuristic fashion<br/>
+              awareness. Tilila Oulhaj look</p>
+          </div>
+
+          <div className='h-full w-[55%] bg-[url("./image3.png")] bg-cover'>
+
+          </div>
+
+      </div>
+
+      <div className='mt-[10vh] h-[80vh] w-[80%] mx-auto bg-[url("./image4.png")] bg-cover'>
+      </div>
+
+        
+      <h1 className='my-[10vh] h-[10vh] w-[80%] font-bold text-5xl mx-auto flex justify-center items-center'>
+          UPDATES
+      </h1>
+
+      <div className='h-[80vh] mx-auto w-[80%]'>
+        <div className="elem px-5 h-[25%] w-full border-t-[2px] border-black">
+          <div className='w-[70%] flex justify-between items-center h-full'>
+          <h1 className='font-bold uppercase'>Men's <br/>Fashion</h1>
+          <div className="content flex w-[30%] flex-col">
+            <h1 className='font-bold text-3xl'>Khadim & Tom Ford</h1>
+            <p>25Th March 2020</p>
+          </div>
+          </div>
+        </div>
+        <div className="elem px-5 h-[25%] w-full border-t-[2px] border-black">
+        <div className='w-[70%] flex justify-between items-center h-full'>
+          <h1 className='font-bold uppercase'>Women's <br/>Fashion</h1>
+          <div className="content w-[30%] flex flex-col">
+            <h1 className='font-bold text-3xl'>Arena Homme</h1>
+            <p>25Th March 2020</p>
+          </div>
+          </div>
+        </div>
+        <div className="elem px-5 h-[25%] w-full border-t-[2px] border-black">
+        <div className='w-[70%] flex justify-between items-center h-full'>
+          <h1 className='font-bold uppercase'>Special <br/>View</h1>
+          <div className="content flex w-[30%] flex-col">
+            <h1 className='font-bold text-3xl'>Jing for Wonderland</h1>
+            <p>25Th March 2020</p>
+          </div>
+          </div>
+        </div>
+        <div className="elem px-5 h-[25%] w-full border-t-[2px] border-black border-b-[2px]">
+        <div className='w-[70%] flex justify-between items-center h-full'>
+          <h1 className='font-bold uppercase'>Models<br/>Talk</h1>
+          <div className="content flex w-[30%] flex-col">
+            <h1 className='font-bold text-3xl'>Glass X Belle</h1>
+            <p>25Th March 2020</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='flex justify-between mt-[10vh] h-[80vh] w-[80%] mx-auto'>
+
+          <div className='w-[47%] h-full bg-cover bg-center bg-[url("./image5.png")]'>
+
+          </div>
+
+          
+          <div className='w-[47%] h-full'>
+
+              <div className='h-[50%] w-full'>
+                  <h1 className='font-bold text-5xl '>MOVIE SHOT</h1>
+                  <h2 className='text-xl py-3'>London based Tom Mitchell has <br/>a distinct aesthetic within his <br/>photography & moving image</h2>
+                  <p className='py-4'>Tom's calm nature and eagerness to create; while still maintaing a high level of professsionalism; has seen him slide into the fashion industry - photographing campaingns, looks books, editorials, portraits, short films and TV commercials.</p>
+              </div>
+              <div className='flex justify-between h-[50%] w-full'>
+                <div className='bg-cover bg-[url("./image6.png")] bg-center w-[47%] h-full'></div>                
+                <div className='bg-cover bg-[url("./image7.png")] bg-center w-[47%] h-full'></div>
+              </div>
+          </div>
+      </div>
+
+      <div className='mt-[10vh] h-[80vh] w-[80%] mx-auto bg-[url("./image8.png")] bg-cover '>
+      </div>
+
+
+      <div className='mt-[10vh] h-[100vh] flex justify-between w-[80%] mx-auto'>
+        <div className='w-[60%] bg-[url("./image9.png")] bg-cover bg-top'></div>
+        <div className='w-[33%] flex flex-col justify-between'>
+                <div className='w-full h-[75%] bg-[url("./image10.png")]'></div>
+                <div className='w-full flex justify-between h-[20%]'>
+                  <h2 className='font-bold text-md'>"Body" and "No Lie" - 90s inspired R&B sound that is drawing a new comparisons to Dua Lipa</h2>
+                  <p className='text-sm'>There aren't many 22 year-olds with the introspection of Icelandic artist Glowie - real name Sara Pétursdóttir - but then again, she's always been one for doing her own thing.
+                Sources and related content
+                </p>
+                </div>
+
+        </div>
+      </div>
+    
+        {/* Animated Marquee */}
+
+        <div className='marquee my-[10vh]'>
+        <h1 className='marquetext inline-block font-bold text-[4vw]'>PREMIER MODELS 2020</h1>
+        <h1 className='marquetext inline-block font-bold text-[4vw]'>PREMIER MODELS 2020</h1>
+        <h1 className='marquetext inline-block font-bold text-[4vw]'>PREMIER MODELS 2020</h1>
+        <h1 className='marquetext inline-block font-bold text-[4vw]'>PREMIER MODELS 2020</h1>
+        <h1 className='marquetext inline-block font-bold text-[4vw]'>PREMIER MODELS 2020</h1>
+        </div>
+
+        {/*  */}
+      <div className='flex justify-between mt-[10vh] h-[60vh] w-[80%] mx-auto'>
+        <div className='h-full w-[20%]'>
+        <h1 className='text-black h-[10vh] w-[80%] font-bold text-5xl'>
+          BLOG
+      </h1>
+
+        </div>
+        <div className='flex flex-col justify-between px-5 h-full w-[40%]'>
+          <h2 className='text-xl'>Jack Thompson is featured in a story crossing bridges for ID Magazine. The shot was taken by Maxwell Tomlinson and styled by Louise Prier Tisdall.</h2>
+          <div className='h-[65%] bg-[url("./image11.png")] bg-cover bg-top'></div>          
+        </div>
+        <div className='flex flex-col justify-between px-5 h-full w-[40%]'>
+          <h2 className='text-xl'>As London Fashion Week has concluded, we've compiled a list of fresh new faces and showgirls who have walked the runway for some of the biggest designers.</h2>
+          <div className='h-[65%] bg-[url("./image12.png")] bg-cover bg-top'></div>
+        </div>
+      </div>
+
+      <div className='flex mt-[20vh] border-t-[2px] border-b-[2px] border-black mb-[5vh] h-[40vh] w-full'>
+          <div className=" h-full w-[40%]">
+            <div className="h-[20%]  w-[80%] mx-auto flex items-center justify-between">
+          <h1 className='tracking-[-3px] text-[40px] font-semibold'>premier</h1>
+          <h2 className='text-lg'>Models</h2>
+            </div>
+          </div>
+          <div className=" h-full w-[20%] border-l-[2px] border-r-[2px] border-black">
+          <h2 className='text-lg w-[80%] mx-auto h-[20%] items-center flex justify-center'>Women/Man</h2>
+          </div>
+          <div className=" h-full w-[40%]">
+            <div className='w-full h-[40%]  border-b-[2px] border-black flex items-center px-7 text-lg'>Agency/Blog/Information/Contact us</div>
+            <div className='w-full h-[60%]  flex items-center px-7 text-lg'>© All content Copyright <br/>
+PREMIER MODELS Inc. 1981-2020 / or their respective<br/>
+owners where indicated</div>
+          </div>
+      </div>
     </div>
   )
 }
